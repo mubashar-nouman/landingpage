@@ -1,0 +1,189 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .showcase {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%, rgba(0, 0, 0, 0.7)50%), url("1.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .navbar {
+        /* border: 2px solid white; */
+        height: 10%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        padding: 3% 2%;
+    }
+    
+    ul {
+        /* border: 1px solid yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    ul li {
+        margin-left: 25px;
+        margin-right: 10px;
+        list-style-type: none;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: White;
+        font-family: poppins;
+        font-size: 18px;
+    }
+    
+    .showcase ul li a:hover {
+        color: #ff7200;
+    }
+    
+    .logo h1 {
+        color: #ff7200;
+        font-size: 33px;
+        margin-left: 40px;
+        letter-spacing: 3px;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: transparent;
+    }
+    
+    .topnav input[type=text] {
+        color: white;
+        float: left;
+        padding: 12px;
+        background-color: transparent;
+        border: 2px solid #ff7200;
+        font-size: 17px;
+        border-radius: 10px 0px 0px 10px;
+        outline: none;
+    }
+    /* .topnav input[type=text]:focus {
+    border: 2px solid #ff7200;
+    background: white;
+} */
+    
+     ::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+    
+    .topnav i {
+        background: #ff7200;
+        float: right;
+        color: white;
+        padding: 16px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .text-area {
+        color: White;
+        position: absolute;
+        top: 30%;
+        left: 7%;
+        width: 40%;
+    }
+    
+    .text-area h1 {
+        font-family: poppins;
+        font-size: 45px;
+        margin-bottom: 4%;
+    }
+    
+    .text-area span {
+        color: #ff7200;
+    }
+    
+    .text-area p {
+        font-size: 20px;
+    }
+    
+    .btn-join {
+        color: white;
+        background-color: #ff7200;
+        padding: 2%;
+        margin: 4% 0;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    /* ######################################## */
+    
+    .login {
+        width: 350px;
+        height: 380px;
+        border-radius: 10px;
+        position: absolute;
+        top: 25%;
+        right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .login h2 {
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        font-family: poppins;
+        margin-bottom: 30px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #email,
+    #pass {
+        width: 100%;
+        color: #ff7200;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background: rgba(136, 126, 126, 0.35);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid rgba(0, 0, 0, 0.02);
+        margin: 10px auto;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .submit {
+        cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: #ff7200;
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        margin-top: 30px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    
+    .submit:hover {
+        color: #ff7200;
+        background-color: white;
+    }
